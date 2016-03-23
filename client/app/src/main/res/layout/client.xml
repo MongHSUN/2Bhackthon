@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton1"
+            android:background="#FFFFFF"
+            android:src="@drawable/test_refresh"
+            android:layout_weight="0.5"
+            />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/test_return"
+            android:background="#FFFFFF"
+            android:layout_weight="0.5"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.89"
+        android:textSize = "30sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:layout_width="287dp"
+        android:layout_height="93dp"
+        android:text="View map"
+        android:id="@+id/button"
+        android:textColor="#666666"
+        android:textSize = "18sp"
+        android:padding="3dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/rounded_corner"
+        android:drawableLeft="@drawable/map"
+        />
+
+</LinearLayout>
